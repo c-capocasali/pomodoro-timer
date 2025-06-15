@@ -8,7 +8,8 @@ interface SettingsProps {
 
 
 
-
+//Lida com as configurações. O usuário pode mudar o tempo 
+//de break e work
 function Settings(props:SettingsProps){
     return(
         <div className="setting-container">

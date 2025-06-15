@@ -53,6 +53,8 @@ function Timer(): React.ReactElement{
         }
     }, [secondsLeft, mode]); 
 
+
+    //Calculando o tempo 
     const percentage = Math.round((secondsLeft / totalTimeForMode) * 100);
     const minutes = Math.floor(secondsLeft / 60);
     const seconds = secondsLeft % 60;
